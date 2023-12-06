@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className='min-h-[80vh] md:min-h-[80vh] lg:min-h-[80vh] 2xl:min-h-[80vh]  w-full'>
+    <div className='min-h-[80vh] md:min-h-[80vh] pt-[50px] text-center lg:text-start lg:pt-0 lg:min-h-[80vh] 2xl:min-h-[80vh]  w-full'>
       {/* <div className="hero-overlay bg-black/70 "></div> */}
       <div className='flex-col lg:flex-row flex justify-between mx-[30px] lg:mx-[100px]  items-center'>
         {/* left */}
@@ -16,7 +16,9 @@ const Hero = () => {
             eum iusto eligendi eum magnam voluptas et perspiciatis sequi qui
             molestiae nostrum{" "}
           </p>
-          <div className='btn btn-primary mt-[15px] w-[200px]'>Sign Up</div>
+          <div className="w-full ">
+            <div className='btn btn-primary mt-[15px] w-[200px]'>Sign Up</div>
+          </div>
           {/* <img src='/hero_img1.png' alt='' className='h-[500px] w-fit ' /> */}
         </div>
         {/* right */}
