@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className='md:px-[30px] mt-[30px] footer py-[50px] px-[20px] bg-primary text-white w-full mx-[0px]  md:mx-[0px]'>
+    <footer className='md:px-[30px] mt-[0px] footer py-[50px] px-[20px] bg-primary text-white w-full mx-[0px]  md:mx-[0px]'>
       {/* column 1 */}
       <div className='md:max-w-[300px]'>
         {/* <span className='footer-title'>Contact Us</span> */}

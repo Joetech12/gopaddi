@@ -3,7 +3,7 @@ import React from "react";
 const Section6 = () => {
   return (
     <div
-      className='w-full py-[0px] h-[500px] flex justify-center items-center relative'
+      className='w-full py-[0px] h-[500px] pb-[30px] flex justify-center items-center relative'
       // style={{
       //   backgroundImage: "url(/fam2.png)",
       //   backgroundRepeat: "no-repeat",
