@@ -12,12 +12,11 @@ export default function Home() {
     <div className='min-h-screen'>
       <Navbar />
       <Hero />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-      <Section6 />
-      <Footer />
+      <Section2 className='mt-[30px] md:mt-0' />
+      <Section3 className='mt-[30px] md:mt-0' />
+      <Section4 className='mt-[30px] md:mt-0' />
+      <Section5 className='mt-[30px] md:mt-0' />
+      <Footer className='mt-[30px] md:mt-0' />
     </div>
   );
 }

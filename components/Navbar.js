@@ -63,20 +63,25 @@ const Navbar = () => {
           <img src='/go_logo.png' alt='' className='w-fit h-[60px]' />
         </div>
       </div>
+
       <div className='navbar-center hidden lg:flex'>
-        <ul className='menu menu-horizontal px-1'>
-          <li className=''>
+        <div className='flex items-center space-x-[30px]'>
+          <div className='flex items-center'>
             <a className='text-primary'>Home</a>
-          </li>
-          <li className='flex items-center'>
+            
+          </div>
+          <div className='flex items-center'>
             <p>Solutions </p>
-          </li>
-          <li>
+            <FaAngleDown className='text-[16px] ml-[5px]' />
+          </div>
+          <div className="flex items-center">
             <p className=''>Products </p>
-          </li>
-          <li>
+            <FaAngleDown className='text-[16px] ml-[5px]' />
+          </div>
+          <div className="flex items-center">
             <p className=''>Company </p>
-          </li>
+            <FaAngleDown className='text-[16px] ml-[5px]' />
+          </div>
           {/* <li>
             <details>
               <summary>Solutions</summary>
@@ -116,8 +121,9 @@ const Navbar = () => {
               </ul>
             </details>
           </li> */}
-        </ul>
+        </div>
       </div>
+
       <div className='navbar-end'>
         {/* <div className=""><a className='btn'>Emmanuel</a></div> */}
         <div className='flex items-center border rounded-[20px] py-[10px] px-[10px] cursor-pointer'>
