@@ -3,7 +3,7 @@ import React from "react";
 const Section5 = () => {
   return (
     <div
-      className='min-h-[80vh] md:min-h-[80vh] lg:min-h-[80vh] mt-[0px] 2xl:min-h-[80vh]  w-full'
+      className=''
       // style={{ backgroundImage: "url(/hero_bg.jpg)" }}
     >
       {/* <div className="hero-overlay bg-black/70 "></div> */}

@@ -69,7 +69,7 @@ const Navbar = () => {
         </div>
         {/* <a className='btn btn-ghost text-xl'>daisyUI</a> */}
         <div className=''>
-          <img src='/go_logo.png' alt='' className='w-fit h-[50px]' />
+          <img src='/go_logo.png' alt='' className='w-fit h-[60px]' />
         </div>
       </div>
       <div className='navbar-center hidden lg:flex'>
@@ -78,6 +78,30 @@ const Navbar = () => {
             <a className='text-primary'>Home</a>
           </li>
           <li>
+            <a className='text-black'>
+              Solutions{" "}
+              <span className='ml-[0px]'>
+                <FaAngleDown className='text-[16px]' />
+              </span>
+            </a>
+          </li>
+          <li>
+            <a className='text-black'>
+              Products{" "}
+              <span className='ml-[0px]'>
+                <FaAngleDown className='text-[16px]' />
+              </span>
+            </a>
+          </li>
+          <li>
+            <a className='text-black'>
+              Company{" "}
+              <span className='ml-[0px]'>
+                <FaAngleDown className='text-[16px]' />
+              </span>
+            </a>
+          </li>
+          {/* <li>
             <details>
               <summary>Solutions</summary>
               <ul className='p-2'>
@@ -115,7 +139,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </details>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className='navbar-end'>
