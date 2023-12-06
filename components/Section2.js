@@ -3,7 +3,7 @@ import React from "react";
 const Section2 = () => {
   return (
     <div
-      className='min-h-[80vh] mt-[-50px] md:min-h-[80vh] lg:min-h-[80vh] 2xl:min-h-[80vh]  w-full'
+      className='min-h-[80vh] mt-[30px] lg:mt-[-50px] md:min-h-[80vh] lg:min-h-[80vh] 2xl:min-h-[80vh]  w-full'
       // style={{ backgroundImage: "url(/hero_bg.jpg)" }}
     >
       {/* <div className="hero-overlay bg-black/70 "></div> */}
@@ -17,9 +17,9 @@ const Section2 = () => {
           />
         </div>
         {/* right */}
-        <div className='flex-[1] order-1 lg:order-2 flex flex-col lg:pl-[100px]'>
+        <div className='flex-[1] order-1 text-center lg:text-start lg:order-2 flex flex-col lg:pl-[100px]'>
           {/* <p className='text-[30px] font-bold text-primary'>GoFamily</p> */}
-          <p className='text-[25px] font-bold text-black mt-[7px] max-w-[300px]'>
+          <p className='text-[25px] font-bold text-black mt-[7px] max-w-[400px]'>
             Unlocking The Magic of Family Travel
           </p>
           <p className='text-[14px]  text-black mt-[7px] max-w-[400px]'>

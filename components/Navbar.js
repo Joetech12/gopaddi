@@ -66,19 +66,18 @@ const Navbar = () => {
 
       <div className='navbar-center hidden lg:flex'>
         <div className='flex items-center space-x-[30px]'>
-          <div className='flex items-center'>
+          <div className='flex items-center cursor-pointer'>
             <a className='text-primary'>Home</a>
-            
           </div>
-          <div className='flex items-center'>
+          <div className='flex items-center cursor-pointer'>
             <p>Solutions </p>
             <FaAngleDown className='text-[16px] ml-[5px]' />
           </div>
-          <div className="flex items-center">
+          <div className='flex items-center cursor-pointer'>
             <p className=''>Products </p>
             <FaAngleDown className='text-[16px] ml-[5px]' />
           </div>
-          <div className="flex items-center">
+          <div className='flex items-center cursor-pointer'>
             <p className=''>Company </p>
             <FaAngleDown className='text-[16px] ml-[5px]' />
           </div>

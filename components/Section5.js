@@ -9,7 +9,7 @@ const Section5 = () => {
       {/* <div className="hero-overlay bg-black/70 "></div> */}
       <div className='flex-col  lg:flex-row flex justify-between mx-[30px] lg:mx-[100px] items-center'>
         {/* left */}
-        <div className='flex-[1] order-2 lg:order-1 flex flex-col lg:pl-[100px]'>
+        <div className='flex-[1] order-2 lg:order-1 flex flex-col text-center lg:text-start lg:pl-[100px]'>
           {/* <p className='text-[30px] font-bold text-primary'>GoFamily</p> */}
           <p className='text-[25px] font-bold text-black mt-[7px] max-w-[450px]'>
             Get a Dedicated Relationship Management Team

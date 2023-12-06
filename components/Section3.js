@@ -8,7 +8,7 @@ const Section3 = () => {
       <div className='flex-col z-[10px] mt-[-200px] lg:flex-row flex justify-between mx-[30px] lg:mx-[100px] items-center'>
         {/* left */}
 
-        <div className='flex-[1] flex flex-col py-[50px]'>
+        <div className='flex-[1] text-center lg:text-start flex flex-col py-[50px]'>
           {/* <p className='text-[30px] font-bold text-primary'>GoFamily</p> */}
           <p className='text-[25px] font-bold text-primary mt-[7px] max-w-[400px]'>
             Enjoy Special Family Deals
