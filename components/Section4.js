@@ -1,9 +1,9 @@
 import React from "react";
 
-const Section2 = () => {
+const Section4 = () => {
   return (
     <div
-      className='min-h-[80vh] mt-[-50px] md:min-h-[80vh] lg:min-h-[80vh] 2xl:min-h-[80vh]  w-full'
+      className='min-h-[80vh] md:min-h-[80vh] lg:min-h-[80vh] mt-[50px] 2xl:min-h-[80vh]  w-full'
       // style={{ backgroundImage: "url(/hero_bg.jpg)" }}
     >
       {/* <div className="hero-overlay bg-black/70 "></div> */}
@@ -11,9 +11,9 @@ const Section2 = () => {
         {/* left */}
         <div className='flex-[1] order-2 lg:order-1 flex justify-start'>
           <img
-            src='/hero_img2.png'
+            src='/family_img.png'
             alt=''
-            className='h-[300px] md:h-[500px] w-fit '
+            className='h-[300px] md:h-[400px] w-fit '
           />
         </div>
         {/* right */}
@@ -34,4 +34,4 @@ const Section2 = () => {
   );
 };
 
-export default Section2;
+export default Section4;

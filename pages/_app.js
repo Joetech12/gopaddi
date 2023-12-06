@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Gopaddi- your travel key</title>
+        <title>Gopaddi - your travel key</title>
       </Head>
       <Component {...pageProps} />
     </>
