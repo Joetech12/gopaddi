@@ -3,11 +3,7 @@ import React from "react";
 const Section3 = () => {
   return (
     <div className='w-full relative'>
-      {/* <div className="hero-overlay bg-black/70 "></div> */}
-      {/* <div
-        style={{ backgroundImage: "url(/curve_bkg.png)" }}
-        className='w-full h-[50px] absolute top-0'
-      ></div> */}
+     
       <img src='/curve_bkg.png' alt='' className='w-full h-[200px] z-[1px]' />
       <div className='flex-col z-[10px] mt-[-200px] lg:flex-row flex justify-between mx-[30px] lg:mx-[100px] items-center'>
         {/* left */}
@@ -25,7 +21,7 @@ const Section3 = () => {
           {/* <img src='/hero_img1.png' alt='' className='h-[500px] w-fit ' /> */}
         </div>
         {/* right */}
-        <div className='flex-[1] flex flex-col bg-white border border-gray-400/10 justify-start py-[50px] px-[50px] shadow-xl rounded-[50px]'>
+        <div className='flex-[1] flex flex-col bg-white max-w-[500px] border border-gray-400/10 justify-start py-[50px] px-[50px] shadow-xl rounded-[50px]'>
           <div className='flex justify-between items-center'>
             <div className='flex items-center space-x-[20px] '>
               <p className='font-semibold'>Super-Discounts</p>

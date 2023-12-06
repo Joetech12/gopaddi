@@ -1,7 +1,22 @@
 import React from "react";
+// import { BiLogOut } from "react-icons/bi";
 import { FaAngleDown } from "react-icons/fa";
+import { BiLogOut, BiLogOutCircle, BiSolidPhoneCall } from "react-icons/bi";
+import { BiMenu } from "react-icons/bi";
+import { IoClose } from "react-icons/io5";
+import { BsChevronDown } from "react-icons/bs";
+import { RiCustomerService2Fill } from "react-icons/ri";
+import { useEffect, useState } from "react";
+import Link from "next/link";
+
+import { CgProfile } from "react-icons/cg";
+import { useRouter } from "next/router";
+import { FiSettings } from "react-icons/fi";
 
 const Navbar = () => {
+  const [shadow, setShadow] = useState(false);
+  const [showNav, setShowNav] = useState(true);
+
   return (
     <div className='navbar bg-base-100'>
       <div className='navbar-start'>
@@ -31,36 +46,12 @@ const Navbar = () => {
             </li>
             <li>
               <a>Solutions</a>
-              <ul className='p-2'>
-                <li>
-                  <a>Solution 1</a>
-                </li>
-                <li>
-                  <a>Solution 2</a>
-                </li>
-              </ul>
             </li>
             <li>
               <a>Products</a>
-              <ul className='p-2'>
-                <li>
-                  <a>product 1</a>
-                </li>
-                <li>
-                  <a>product 2</a>
-                </li>
-              </ul>
             </li>
             <li>
               <a>Company</a>
-              <ul className='p-2'>
-                <li>
-                  <a>Company 1</a>
-                </li>
-                <li>
-                  <a>Company 2</a>
-                </li>
-              </ul>
             </li>
             <li>
               <a>Log-out</a>
@@ -74,32 +65,17 @@ const Navbar = () => {
       </div>
       <div className='navbar-center hidden lg:flex'>
         <ul className='menu menu-horizontal px-1'>
-          <li>
+          <li className=''>
             <a className='text-primary'>Home</a>
           </li>
-          <li>
-            <a className='text-black'>
-              Solutions{" "}
-              <span className='ml-[0px]'>
-                <FaAngleDown className='text-[16px]' />
-              </span>
-            </a>
+          <li className='flex items-center'>
+            <p>Solutions </p>
           </li>
           <li>
-            <a className='text-black'>
-              Products{" "}
-              <span className='ml-[0px]'>
-                <FaAngleDown className='text-[16px]' />
-              </span>
-            </a>
+            <p className=''>Products </p>
           </li>
           <li>
-            <a className='text-black'>
-              Company{" "}
-              <span className='ml-[0px]'>
-                <FaAngleDown className='text-[16px]' />
-              </span>
-            </a>
+            <p className=''>Company </p>
           </li>
           {/* <li>
             <details>
