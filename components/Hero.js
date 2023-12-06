@@ -7,7 +7,17 @@ const Hero = () => {
       <div className='flex-col lg:flex-row flex justify-between mx-[30px] lg:mx-[100px]  items-center'>
         {/* left */}
         <div className='flex-[1] flex flex-col'>
-          <p className='text-[50px] font-bold text-primary'>GoFamily</p>
+          <div className='w-full'>
+            <div className='text-[50px] font-bold text-primary w-[300px] relative'>
+              <p className=''>GoFamily </p>
+              <img
+                src='/mark2.png'
+                alt=''
+                className='absolute top-[-10px]  right-[-30px] lg:right-[-15px]'
+              />
+              {/* <span className='w-[20px] h-[5px] bg-primary rounded-[5px] absolute top-0 right-0'></span> */}
+            </div>
+          </div>
           <p className='text-[25px] font-bold text-black mt-[7px] max-w-[400px]'>
             Go Global with GoFamily
           </p>
@@ -16,7 +26,7 @@ const Hero = () => {
             eum iusto eligendi eum magnam voluptas et perspiciatis sequi qui
             molestiae nostrum{" "}
           </p>
-          <div className="w-full ">
+          <div className='w-full '>
             <div className='btn btn-primary mt-[15px] w-[200px]'>Sign Up</div>
           </div>
           {/* <img src='/hero_img1.png' alt='' className='h-[500px] w-fit ' /> */}
