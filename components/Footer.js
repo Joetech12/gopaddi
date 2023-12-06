@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className='bg-primary text-white pt-[20px]'>
+    <div className='bg-primary  pt-[20px]'>
       <footer className='md:px-[80px] footer py-[50px] px-[30px] bg-primary text-white w-full mx-[20px]  md:mx-[50px]'>
         {/* column 1 */}
         <div className='md:max-w-[350px]'>
@@ -17,7 +17,7 @@ const Footer = () => {
           <div className='flex space-x-[10px] mb-[10px]'>
             <a
               href='mailto:removalsandselfstorage@gmail.com?subject=Enquiry'
-              className='link link-hover'
+              className='link link-hover text-white'
             >
               Gopaddi is a travel network that connects and strengthens people’s
               relationships with a world of beautiful, happy people who are able
@@ -27,7 +27,7 @@ const Footer = () => {
           <div className='flex space-x-[10px] mb-[10px]'>
             <a
               href='mailto:removalsandselfstorage@gmail.com?subject=Enquiry'
-              className='link link-hover'
+              className='link link-hover text-white'
             >
               This network is a community of individuals, families, and
               organisations who have chosen to take control of their travel
@@ -75,7 +75,7 @@ const Footer = () => {
           <input
             type='text'
             placeholder='Email'
-            className='input input-bordered  w-full max-w-xs'
+            className='input input-bordered text-black  w-full max-w-xs'
           />{" "}
           <div className='flex mt-[10px] mb-[10px] md:mb-[20px] w-full'>
             <div className='form-control '>
