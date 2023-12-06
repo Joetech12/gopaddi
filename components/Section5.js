@@ -25,7 +25,7 @@ const Section5 = () => {
         {/* right */}
         <div className='flex-[1] order-1 lg:order-2 flex justify-start'>
           <img
-            src='/family_img.png'
+            src='/mn2.png'
             alt=''
             className='h-[300px] md:h-[400px] w-fit'
           />
